@@ -2,8 +2,8 @@
 class Colmsg < Formula
   desc "A CLI tool for '欅坂/日向坂メッセージアプリ'."
   homepage "https://github.com/proshunsuke/colmsg"
-  url "https://github.com/proshunsuke/colmsg/releases/download/v0.1.1/colmsg-v0.1.1-x86_64-apple-darwin.tar.gz"
-  sha256 "f7ffab5d922b1a7909611d0095131eb51f0ac975b1eb39074b82999f740615f4"
+  url "https://github.com/proshunsuke/colmsg/releases/download/v0.1.2/colmsg-v0.1.2-x86_64-apple-darwin.tar.gz"
+  sha256 "286397b1921393bc9e8c4dbbcf9f2392430d0617e10e61d160a8b0352ab68fd1"
 
   def install
     bin.install "colmsg"
