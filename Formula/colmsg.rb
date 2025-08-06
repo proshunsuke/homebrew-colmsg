@@ -4,11 +4,11 @@ class Colmsg < Formula
   homepage "https://github.com/proshunsuke/colmsg"
 
   if Hardware::CPU.intel?
-    url "https://github.com/proshunsuke/colmsg/releases/download/v3.2.2/colmsg-v3.2.2-x86_64-apple-darwin.tar.gz"
-    sha256 "23ca5eaf8ac8b640c6e59b6027414152f620eb7ffb34b71f14a433cb2e0aca5f"
+    url "https://github.com/proshunsuke/colmsg/releases/download/v3.3.0/colmsg-v3.3.0-x86_64-apple-darwin.tar.gz"
+    sha256 "cb62c9cf209a3a58249be099b62da718cde412bcf2deda75ef15710d292c8af7"
   elsif Hardware::CPU.arm?
-    url "https://github.com/proshunsuke/colmsg/releases/download/v3.2.2/colmsg-v3.2.2-aarch64-apple-darwin.tar.gz"
-    sha256 "e573cc472d3aadf239039363a3c7d43fd08d9af1b08ec14e571b0600fa0df503"
+    url "https://github.com/proshunsuke/colmsg/releases/download/v3.3.0/colmsg-v3.3.0-aarch64-apple-darwin.tar.gz"
+    sha256 "5afe28eadc40af6c6b7499c2a124eba5b8aaceb9f754e8e29ff260e15ca424e9"
   end
 
   def install
