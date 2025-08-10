@@ -1,6 +1,6 @@
 # coding: utf-8
 class Colmsg < Formula
-  desc "A CLI tool for '櫻坂46メッセージ', '日向坂46メッセージ', '乃木坂46メッセージ', '齋藤飛鳥メッセージ' and '白石麻衣メッセージ' app."
+  desc "A CLI tool for '櫻坂46メッセージ', '日向坂46メッセージ', '乃木坂46メッセージ', '齋藤飛鳥メッセージ', '白石麻衣メッセージ', and 'yodel' app."
   homepage "https://github.com/proshunsuke/colmsg"
 
   if Hardware::CPU.intel?
